@@ -31,5 +31,5 @@ setup(
     install_requires=["datasette", "pyinstrument"],
     extras_require={"test": ["pytest", "pytest-asyncio"]},
     tests_require=["datasette-pyinstrument[test]"],
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
