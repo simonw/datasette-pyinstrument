@@ -17,6 +17,10 @@ Install this plugin in the same environment as Datasette.
 
 Once installed, adding `?_pyinstrument=1` to any URL within Datasette will replace the output of that page with the pyinstrument profiler results for it.
 
+## Demo
+
+You can see the output of this plugin at https://latest-with-plugins.datasette.io/fixtures/sortable?_pyinstrument=1
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
